@@ -1,0 +1,29 @@
+body {
+  nav {
+    background-color: #114c36;
+    color: black;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    li { 
+      display: inline-block;
+    }
+  
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+      &:hover {
+        background-color: $accentColor;
+        color: #fefefe;
+      }
+    }
+  }
+
+  background-color: $rootColor;
+  color: white;
+}
